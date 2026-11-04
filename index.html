@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+  
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d20">
+  <title>MONSTER | Gaming Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="ps-background">
+    <div class="light light-one"></div>
+    <div class="light light-two"></div>
+    <div class="light light-three"></div>
+    <div class="particles"></div>
+    <div class="ps-wave"></div>
+  </div>
+
+  <div class="spider-web">
+    <span class="web-spider">🕷</span>
+  </div>
+
+  <section class="intro" id="intro">
+    <div class="intro-content">
+      <div class="monster-logo">
+        <svg viewBox="0 0 100 100" role="img" aria-label="MONSTER logo">
+          <path d="M12 78V22L50 48L88 22V78H70V52L50 66L30 52V78Z"/>
+          <path d="M38 82L50 70L62 82" fill="none"/>
+        </svg>
+      </div>
+      <p class="intro-small">WELCOME TO THE WORLD OF GAMING</p>
+      <h1>MONSTER</h1>
+      <p class="intro-description">ENTER THE NEXT LEVEL</p>
+      <button class="enter-btn" id="enterBtn">
+        <span>دخول المتجر</span>
+        <span class="enter-arrow">←</span>
+      </button>
+    </div>
+    <div class="intro-bottom">POWERED BY MONSTER GAMING</div>
+  </section>
+
+  <div class="site" id="site">
+    <header class="header">
+      <a class="brand" href="#">
+        <span class="brand-mark">M</span>
+        <span>MONSTER<small>GAMING STORE</small></span>
+      </a>
+      <nav>
+        <a href="#home">الرئيسية</a>
+        <a href="#games">الألعاب</a>
+        <a href="#about">عن المتجر</a>
+      </nav>
+      <a class="header-button" href="#games">اكتشف الألعاب</a>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-text">
+          <span class="hero-label">WELCOME TO MONSTER</span>
+          <h1>LEVEL UP<br><span>YOUR GAME</span></h1>
+          <p>اكتشف عالم الألعاب مع MONSTER. ألعاب مشهورة، مغامرات لا تنتهي، وتجربة مختلفة.</p>
+          <a href="#games" class="main-btn">استكشف الألعاب <span>←</span></a>
+        </div>
+        <div class="hero-art">
+          <div class="hero-ring ring-one"></div>
+          <div class="hero-ring ring-two"></div>
+          <div class="hero-symbol">M</div>
+          <div class="hero-caption">NO LIMITS. JUST PLAY.</div>
+        </div>
+        <div class="hero-glow"></div>
+      </section>
+
+      <section class="games-section" id="games">
+        <div class="section-heading">
+          <div>
+            <span class="section-label">CHOOSE YOUR GAME</span>
+            <h2>مكتبة <span>الألعاب</span></h2>
+          </div>
+          <div class="game-count" id="gameCount">62 GAME</div>
+        </div>
+
+        <div class="controls">
+          <input id="searchInput" type="search" placeholder="ابحث عن لعبة...">
+          <select id="categoryFilter">
+            <option value="all">كل التصنيفات</option>
+            <option value="action">أكشن</option>
+            <option value="adventure">مغامرات</option>
+            <option value="sports">رياضة وسباق</option>
+            <option value="horror">رعب</option>
+            <option value="online">أونلاين</option>
+            <option value="indie">مستقلة</option>
+          </select>
+        </div>
+
+        <div class="games-grid" id="gamesGrid"></div>
+        <p class="empty-message" id="emptyMessage">مفيش ألعاب مطابقة للبحث.</p>
+      </section>
+
+      <section class="about" id="about">
+        <span class="section-label">ABOUT MONSTER</span>
+        <h2>أهلاً بك في <span>MONSTER</span></h2>
+        <p>مكانك لاكتشاف أشهر الألعاب وعوالم الجيمينج. اختار لعبتك واستمتع بالتجربة.</p>
+        <div class="about-line"></div>
+        <strong>PLAY DIFFERENT. PLAY MONSTER.</strong>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-brand">MONSTER</div>
+      <p>© 2026 MONSTER GAMING STORE</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
